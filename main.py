@@ -1,5 +1,5 @@
 import csv
-with open('data1.csv') as csvfile:
+with open('data.csv') as csvfile:
     data = list(csv.reader(csvfile, delimiter=','))
 data = [[int(y) for y in x] for x in data]
 
